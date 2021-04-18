@@ -4,8 +4,14 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.lee.domain.User;
 
+/**
+ *
+ */
 public class JavaTest {
-
+    /**
+     * @param args
+     * @throws JsonProcessingException
+     */
     public static void main(String[] args) throws JsonProcessingException {
         System.out.println("i love idea");
         User user = new User();
